@@ -1,11 +1,11 @@
 Tugas-7
 
-KAMPUS         : Institut Teknologi Batam
-Mata Kuliah    : Jaringan Komputer
+Kampus        : Institut Teknologi Batam <br>
+Mata Kuliah    : Jaringan Komputer<br>
 Dosen Pengampu : Muhammad Ogin Hasanuddin. S.T., M.T.
 
  
  
- Kelompok 2
+ <b>Kelompok 2</b>
 - Andrian Syah (1922009)
 - Hani Khairiyah (1922001)
