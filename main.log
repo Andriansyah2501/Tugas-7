@@ -1,21 +1,21 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.21)  21 JUL 2021 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.2)  21 JUL 2021 13:46
 entering extended mode
-**"d:/Jaringan Komputer/ini/Tugas-7/main.tex"
-(d:/Jaringan Komputer/ini/Tugas-7/main.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+**"d:/ITEBA/Kuliah/TK2202 Jaringan Komputer/rubrik penilaian/reguler/Tugas 7/Andriansyah2501/Tugas-7/main.tex"
+(d:/ITEBA/Kuliah/TK2202 Jaringan Komputer/rubrik penilaian/reguler/Tugas 7/Andriansyah2501/Tugas-7/main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Program Files\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen138
 \@IEEEtrantmpdimenB=\dimen139
 \@IEEEtrantmpdimenC=\dimen140
-\@IEEEtrantmpcountA=\count182
-\@IEEEtrantmpcountB=\count183
-\@IEEEtrantmpcountC=\count184
-\@IEEEtrantmptoksA=\toks16
+\@IEEEtrantmpcountA=\count179
+\@IEEEtrantmpcountB=\count180
+\@IEEEtrantmpcountC=\count181
+\@IEEEtrantmptoksA=\toks15
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+(C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -77,32 +77,32 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen154
 \IEEEiedmathlabelsep=\dimen155
 \IEEEiedtopsep=\skip47
-\c@section=\count185
-\c@subsection=\count186
-\c@subsubsection=\count187
-\c@paragraph=\count188
-\c@IEEEsubequation=\count189
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@IEEEsubequation=\count186
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
-\c@figure=\count190
-\c@table=\count191
-\@IEEEeqnnumcols=\count192
-\@IEEEeqncolcnt=\count193
-\@IEEEsubeqnnumrollback=\count194
+\c@figure=\count187
+\c@table=\count188
+\@IEEEeqnnumcols=\count189
+\@IEEEeqncolcnt=\count190
+\@IEEEsubeqnnumrollback=\count191
 \@IEEEquantizeheightA=\dimen156
 \@IEEEquantizeheightB=\dimen157
 \@IEEEquantizeheightC=\dimen158
 \@IEEEquantizeprevdepth=\dimen159
-\@IEEEquantizemultiple=\count195
-\@IEEEquantizeboxA=\box50
+\@IEEEquantizemultiple=\count192
+\@IEEEquantizeboxA=\box47
 \@IEEEtmpitemindent=\dimen160
 \IEEEPARstartletwidth=\dimen161
-\c@IEEEbiography=\count196
-\@IEEEtranrubishbin=\box51
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count197
-\l__pdf_internal_box=\box52
+\c@IEEEbiography=\count193
+\@IEEEtranrubishbin=\box48
+) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box49
 ) (main.aux)
 \openout1 = `main.aux'.
 
@@ -136,19 +136,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 14.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 14.
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
+(C:\Program Files\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 
-Underfull \hbox (badness 3291) in paragraph at lines 41--47
+Underfull \hbox (badness 3291) in paragraph at lines 39--45
 \OT1/ptm/m/n/10 Fi meru-pakan jaringan nirk-a-bel yang di-gu-nakan un-tuk
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
-No file main.bbl.
+(Font)              <7> on input line 56.
+(main.bbl [1{C:/Users/muhammadoginh/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -160,22 +163,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/DELL/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
-
+[2
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 1285 strings out of 478864
- 25135 string characters out of 2849134
- 335949 words of memory out of 3000000
- 19264 multiletter control sequences out of 15000+600000
- 439970 words of font info for 89 fonts, out of 8000000 for 9000
+ 1285 strings out of 479334
+ 25386 string characters out of 2866937
+ 325262 words of memory out of 3000000
+ 18792 multiletter control sequences out of 15000+200000
+ 439970 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,41p,316b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 108690 bytes).
+ 39i,11n,46p,404b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 102226 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
