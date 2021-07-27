@@ -21,6 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{puspitasari2014analisis}
+N.~F. Puspitasari, ``Analisis rssi (receive signal strength indicator) terhadap
+  ketinggian perangkat wi-fi di lingkungan indoor,'' \emph{Data Manajemen Dan
+  Teknologi Informasi (DASI)}, vol.~15, no.~4, p.~32, 2014.
+
 \bibitem{Ookla}
 \BIBentryALTinterwordspacing
 Ookla, ``{Speedtest}.'' [Online]. Available: \url{https://www.speedtest.net/}
