@@ -1,4 +1,6 @@
 \documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+\graphicspath{{./gambar/}}
 
 \title{Analisis kekuatan Sinyal}
 
@@ -152,7 +154,11 @@ panjang gelombang~. \cite{puspitasari2014analisis}
 disini pengaruh suhu dan kekuatan angin sangat berpengaruh terhadap kualitas RSSI ,
 untuk diruangan dan didalam ruangan akan terdapat perbedaan yang sangat signifikan , faktor-faktor
 yang mempengaruhi transmisi sinyal pada suatu receiver adalah hambatan seperti dinding,ketinggan , kualitas transmiter , dan lain-lain .
-kinerja pada sinyal yang menggunakan band 2,4 Ghz pada suatu waktu akan terjadi noise apabila yang digunakan pada device adalah NIC yang abal-abal.
+kinerja pada sinyal yang menggunakan band 2,4 Ghz pada suatu waktu akan terjadi noise apabila yang digunakan pada device adalah NIC yang abal-abal. 
+
+\subsection{Pengaruh Berbagai Faktor pada RSSI dari Positioning Antena}
+Pengaruh faktor pada RSSI terhadap Positioning dari antena pada Usb wireless TL-WN722N sangat bengaruh terhadap penerimaaan data yang ada pada device / Laptop
+hal ini memungkinkan terjadi nya transmisi yang tidak stabil apabila menggunakan aplikasi InSSIDer dan digunakan SpeedTest untuk mengetest kecepatan transfer data .
 
 \section{Scenario}
 Pada sesi ini kami menggunakan skenario menggunakan peralatan seperti dibawah ini :
@@ -163,9 +169,91 @@ Pada sesi ini kami menggunakan skenario menggunakan peralatan seperti dibawah in
     \item Laptop : Laptop yang digunakan adalah merk HP dengan series 8440p dengan sistem operasi windows dual boot ubuntu , processor i5 generasi 1 ,dengan penyimpanan 1 TB ,dan RAM sebesar 6 GB 
     \item Handphone : Redmi Note 8 dengan RAM 4 GB dan penyimpanan internal sebesar 64 GB 
     \item USB Wireless : TP-LINK TL-WN722N dengan kecepatan maksimal transfer data sebesar 150 Mbps
+    \item Meteran : untuk mengukur jarak router ke receiver
 \end{itemize}
 
+\subsection{Software yang digunakan}
 
+\begin{itemize}
+    \item Aplikasi InSSIDer :berfungsi sebagai scanner WiFi yang dapat dijangkau oleh adapter WiFi dengan hasil yang sangat terperinci dari setiap masing-masing jaringan WiFi. Kelebihan lain dari software inSSIDer ini ialah dapat bekerja pada merek adapter WiFi biasa jadi tidak membutuhkan adapter / perangkat WiFi yang khusus.
+    \item Speedtest by Ookla : sebuah situs yang menyediakan pengujian kecepatan koneksi internet yang disediakan oleh perusahaan asal Kalispel .
+\end{itemize}
+
+\subsection{Teknik Pengumpulan Data}
+
+\begin{itemize}
+\item Melakukan perencanaan penelitian yang membahas mengenai data yang akan diambil
+pada saat penelitian meliputi denah, tinggi
+access point, koordinat, jarak, RSSI 
+
+\item Menentukan koordinat posisi Access Point
+dan posisi receiver di lingkungan indoor.
+
+\item Aplikasi inSSIDER yang telah dijalankan
+akan melaporkan data terhadap nilai RSSI
+yang diterima oleh receiver, dan
+pengumpulan data selesai
+\end{itemize}
+
+Pengukuran yang dilakukan terhadap sinyal transmisi ini seperti dibawah ini :
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{gambar-lokasi.png}
+    \caption{Denah Lokasi Pengukuran Jarak}
+\end{figure}
+
+pada gambar diatas diukur menggunakan meteran jarak nya adalah 8.5 Meter dengan posisi Router berada didalam rumah 
+kondisi ini memiliki hambatan karena terdapat beberapa dinding yang harus ditembus sinyal . sehingga yang didapatkan pada receiver TL-WN722N tidak stabil .
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{gambar-inssider.png}
+    \caption{Analisis InSSIDer}
+\end{figure}
+
+didapatkan sinyal yang bernama "ALFATIH" sebesar -65dBm dalam posisi HIDDEN , jika kita liat HIDDEN ini berarti terdapat SSID yang di enable kan untuk broadcast atau dipancarkan .
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{speedtest.png}
+    \caption{SpeedTest}
+\end{figure}
+
+pada pengetesan kali ini , hambatan yang ada antara receiver dan router adalah tembok yang hanya di sekat . dapat kita lihat bahwa kecepatan yang di dapatkan dari ISP Seharus nya 1:2 dengan paket 25 Mbps .
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{router.png}
+    \caption{Halaman Admin Pada Router Huawei}
+\end{figure}
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{signal-strengh.png}
+    \caption{Halaman Admin Pada Router Huawei}
+\end{figure}
+
+Kekuatan sinyal RSSI yang diterima oleh
+receiver tidak bergantung dengan  adanya jarak
+antara transmitter dan receiver, akan tetapi
+menunjukkan terdapat berbagai variasi yang besar terhadap fading
+dan shadowing pada sebuah lokasi. Hal ini
+terlihat pada tempat pengukuran yang kondisi
+lingkungannya memiliki banyak property seperti
+didalam ruangan terdapat sekat, tembok, meja dan 
+property lainnya, sehingga akan terjadi peredaman sinyal, pembelokan sinyal dan pemantulan
+sinyal yang mengakibatkan penurunan kuat
+sinyal yang dipancarkan oleh transmiter kepada
+receiver, walaupun jarak antara transmiter dan
+receiver cukup dekat, namun terhalang oleh
+adanya property disekitarnya, maka kekuatan
+sinyalnya akan menurun dan kemungkinan
+kekuatan sinyal nya akan sama dengan kekuatan
+sinyal pada jarak antara transmiter dan receiver
+yang cukup jauh, namun tidak memiliki
+penghalang disekitarnya. 
 
 \section{Hasil dan Pembahasan}
 

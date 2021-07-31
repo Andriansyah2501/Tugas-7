@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  31 JUL 2021 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  31 JUL 2021 21:30
 entering extended mode
 **"c:/Users/ian/Documents/GitHub/tugas 7/Tugas-7/main.tex"
 (c:/Users/ian/Documents/GitHub/tugas 7/Tugas-7/main.tex
@@ -99,6 +99,24 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen161
 \c@IEEEbiography=\count196
 \@IEEEtranrubishbin=\box51
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count197
@@ -106,47 +124,123 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 -- Lines per column: 56 (exact).
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 14.
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count198
+\scratchdimen=\dimen164
+\scratchbox=\box53
+\nofMPsegments=\count199
+\nofMParguments=\count266
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count267
+\MPscratchDim=\dimen165
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
+\everyMPtoPDFconversion=\toks19
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 14.
+(Font)              <11> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 14.
+(Font)              <7.69997> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 14.
+(Font)              <5.5> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 14.
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omsptm.fd
+(Font)              <5> on input line 16.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 16.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 40.
+(Font)              <7> on input line 42.
  [1{C:/Users/ian/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-] (main.bbl [2])
+]
+Underfull \hbox (badness 1571) in paragraph at lines 185--188
+\OT1/ptm/m/n/10 ge-nai data yang akan di-am-bil pada saat peneli-tian
+ []
+
+<./gambar//gambar-lokasi.png, id=12, 1199.23032pt x 560.8453pt>
+File: ./gambar//gambar-lokasi.png Graphic file (type png)
+<use ./gambar//gambar-lokasi.png>
+Package pdftex.def Info: ./gambar//gambar-lokasi.png  used on input line 202.
+(pdftex.def)             Requested size: 258.0pt x 120.6564pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 202--203
+ [][] 
+ []
+
+[2 <./gambar//gambar-lokasi.png>]
+<./gambar//gambar-inssider.png, id=24, 1199.23032pt x 622.57594pt>
+File: ./gambar//gambar-inssider.png Graphic file (type png)
+<use ./gambar//gambar-inssider.png>
+Package pdftex.def Info: ./gambar//gambar-inssider.png  used on input line 211.
+(pdftex.def)             Requested size: 258.0pt x 133.9367pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 211--212
+ [][] 
+ []
+
+<./gambar//speedtest.png, id=25, 298.11375pt x 425.33907pt>
+File: ./gambar//speedtest.png Graphic file (type png)
+<use ./gambar//speedtest.png>
+Package pdftex.def Info: ./gambar//speedtest.png  used on input line 219.
+(pdftex.def)             Requested size: 206.39685pt x 294.48373pt.
+<./gambar//router.png, id=26, 721.94719pt x 525.46312pt>
+File: ./gambar//router.png Graphic file (type png)
+<use ./gambar//router.png>
+Package pdftex.def Info: ./gambar//router.png  used on input line 227.
+(pdftex.def)             Requested size: 258.0pt x 187.77948pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 227--228
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./gambar//signal-strengh.png, id=27, 1203.7472pt x 590.95781pt>
+File: ./gambar//signal-strengh.png Graphic file (type png)
+<use ./gambar//signal-strengh.png>
+Package pdftex.def Info: ./gambar//signal-strengh.png  used on input line 234.
+(pdftex.def)             Requested size: 258.0pt x 126.6567pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 234--235
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./gambar//gambar-inssider.png> <./gambar//speedtest.png> <./gambar//router.png> <./gambar//signal-strengh.png>] (main.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -158,21 +252,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[4
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 1299 strings out of 478864
- 25248 string characters out of 2858523
- 340949 words of memory out of 3000000
- 19274 multiletter control sequences out of 15000+600000
+ 2138 strings out of 478864
+ 37388 string characters out of 2858523
+ 351232 words of memory out of 3000000
+ 20071 multiletter control sequences out of 15000+600000
  442242 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,41p,352b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,12n,66p,410b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 155108 bytes).
+Output written on main.pdf (4 pages, 2621973 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
