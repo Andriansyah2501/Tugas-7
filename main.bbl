@@ -26,6 +26,12 @@ N.~F. Puspitasari, ``Analisis rssi (receive signal strength indicator) terhadap
   ketinggian perangkat wi-fi di lingkungan indoor,'' \emph{Data Manajemen Dan
   Teknologi Informasi (DASI)}, vol.~15, no.~4, p.~32, 2014.
 
+\bibitem{LINK2018}
+\BIBentryALTinterwordspacing
+T.~LINK, ``{USB WIRELESS TL-WN722N},'' 2018. [Online]. Available:
+  \url{https://www.tp-link.com/id/home-networking/high-power-adapter/tl-wn722n/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Ookla}
 \BIBentryALTinterwordspacing
 Ookla, ``{Speedtest}.'' [Online]. Available: \url{https://www.speedtest.net/}
