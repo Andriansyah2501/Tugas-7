@@ -2,11 +2,11 @@
 \usepackage{graphicx}
 \graphicspath{{./gambar/}}
 
-\title{Analisis kekuatan Sinyal}
+\title{Signal Strength Analysis in Residential Area}
 
 \author{Andrian Syah\IEEEauthorrefmark{1}, Hani Khairiyah\IEEEauthorrefmark{2}\\
-\textit{Fakultas Teknologi Informasi}\\
-\textit{Teknik Komputer}\\
+\textit{Faculty Technology Information}\\
+\textit{Computer Enginering}\\
 \textit{Institut Teknologi Batam}\\
 Batam, Indonesia\\
 Email: \{\IEEEauthorrefmark{1}1922009, \IEEEauthorrefmark{2}1922001\}@student.iteba.ac.id}
@@ -16,10 +16,10 @@ Email: \{\IEEEauthorrefmark{1}1922009, \IEEEauthorrefmark{2}1922001\}@student.it
 \maketitle
 
 \begin{abstract}
-    Implementasi jaringan wireless Atau yang biasa disebut dengan teknologi WLAN(Wireless Local Area Network) yang telah diatur oleh standar
-    IEEE 802.11 . Jaringan WiFi digunakan untuk menghubungkan berbagai perangkat dan berbagi data.
-    Analisis Wireless atau jaringan nirkabel menggunakan aplikasi InSSIDer ,
-    Mengumpulkan Informasi jaringan yang ada pada sekitar lingkungan yang memiliki transmisi sinyal WiFi
+    Implementation of a wireless network or what is commonly referred to as WLAN (Wireless Local Area Network) technology that has been regulated by standards
+    IEEE 802.11. WiFi network is used to connect various devices and share data.
+    Analysis of Wireless or wireless networks using the InSSIDer application,
+    call Information on existing networks in the vicinity that have WiFi signal transmission
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -27,85 +27,83 @@ Email: \{\IEEEauthorrefmark{1}1922009, \IEEEauthorrefmark{2}1922001\}@student.it
 \end{IEEEkeywords}
 
 \section{Introduction}
-Seiring berkembang nya zaman Teknologi semakin tidak bisa dihindarkan, 
-kita sebagai manusia tidak dapat menghindar dari adanya teknologi tersebut,
-banyak nya teknologi membuat banyak hal berubah sehingga menjadikan teknologi tersebut 
-adalah bagian dari hidup. salah satu dari teknologi tersebut adalah teknologi jaringan nirkabel atau bisa disebut teknologi jaringan Wireless , yang dimana banyak digunakan di berbagai macam tempat  contoh nya dikampus,kafe,kedai kopi, dan lain-lain .
+A long with the development of the era of technology, it is unavoidable,
+we as humans can not avoid the existence of this technology,
+a lot of technology makes a lot of things change so that makes the technology
+is part of life. one of these technologies is wireless network technology or can be called wireless network technology, which is widely used in various places, for example on campuses, cafes, coffee shops, and others.
 
-perkembangan Wireless ini sangat pesat sekali,karena flexible tanpa menggunakan kabel dan menghemat biaya 
-, namun dari pernyataan tersebut Wireless juga banyak kelebihan dan kekurangan nya . 
-Sebelumnya dianggap bahwa jaringan kabel lebih cepat dan lebih aman daripada jaringan nirkabel.
-Namun peningkatan berkelanjutan pada teknologi jaringan nirkabel seperti standar jaringan Wireless
- telah membuat banyak perbedaan kecepatan dan keamanan antara jaringan kabel dan nirkabel tersebut.
+Wireless development is very rapid, because it is flexible without using cables and saves costs
+, but from the statement Wireless also has many advantages and disadvantages .
+Previously it was thought that wired networks were faster and more secure than wireless networks.
+However, continuous improvement in wireless networking technologies such as the Wireless networking standard
+ has made a lot of difference in speed and security between those wired and wireless networks.
 
  \begin{itemize}
     \item Local Area Network
 \end{itemize}
 
-Jaringan area lokal (LAN) dirancang untuk menghubungkan komputer pribadi dan perangkat digital lainnya dalam radius setengah mil atau 500 meter. 
-LAN biasanya menghubungkan beberapa komputer di kantor kecil, semua komputer di satu gedung, atau semua komputer di beberapa gedung dalam jarak dekat.
-Sistem operasi LAN yang paling umum adalah Windows, Linux, dan lain-lain
+local area network (LAN) is designed to connect personal computers and other digital devices within a half mile or 500 meter radius.
+LANs usually connect several computers in a small office, all computers in one building, or all computers in several buildings in close proximity.
+The most common LAN operating systems are Windows, Linux, etc.
 
 \begin{itemize}
     \item Wide Area Networks (WAN)
 \end{itemize}
-Wide area networks (WAN) menjangkau jarak geografis yang luas (seluruh wilayah, negara bagian, benua, atau seluruh dunia). 
-WAN yang paling universal dan kuat adalah Internet.
-Komputer terhubung ke WAN melalui jaringan publik, seperti sistem telepon atau sistem kabel pribadi, atau melalui leased line atau satelit. 
-Jaringan area metropolitan (MAN) adalah jaringan yang mencakup area metropolitan, biasanya kota dan pinggiran kota utamanya. 
-Lingkup geografisnya berada di antara WAN dan LAN.
-
+Wide area networks (WAN) span large geographic distances (entire regions, states, continents, or the entire world).
+The most universal and powerful WAN is the Internet.
+Computers are connected to a WAN via a public network, such as a telephone system or private cable system, or via leased lines or satellites.
+A metropolitan area network (MAN) is a network that covers a metropolitan area, usually a city and its main suburbs.
+Its geographical scope is in between WAN and LAN.
+\vspace{1cm}
 \begin{itemize}
     \item Metropolitan Area Network (MAN)
 \end{itemize}
-MAN atau Metropolitan Area Network mencakup area yang lebih besar daripada LAN dan area yang lebih kecil dibandingkan dengan WAN.
-Ini menghubungkan dua atau lebih komputer yang terpisah tetapi berada di kota yang sama atau berbeda. 
-Ini mencakup area geografis yang luas dan dapat berfungsi sebagai ISP (penyedia layanan internet).
-MAN dirancang untuk pelanggan yang membutuhkan konektivitas berkecepatan tinggi.
-Kecepatan MAN berkisar dalam hal Mbps. Sulit untuk merancang dan memelihara Jaringan Area Metropolitan. 
-Toleransi kesalahan dari MAN lebih sedikit daripada LAN dan juga ada lebih banyak kemacetan di jaringan.
-Kecepatan transfer data dan penundaan propagasi dari MAN adalah moderat.
 
-\begin{itemize}
-    \item Personal Area Network (PAN)
-\end{itemize}
-Mewakili teknologi personal area network wireless seperti Bluetooth (IEEE 802.15) dan Infrared (IR). 
-Jaringan ini mengizinkan hubungan peralatan personal dalam suatu area berkisar 12 inchi. 
-Bagaimanapun juga Infrared membutuhkan hubungan langsung dan jangkauan yang lebih pendek.
+MAN or Metropolitan Area Network covers a larger area than a LAN and a smaller area than a WAN.
+It connects two or more computers that are separate but are in the same or different cities.
+It covers a large geographical area and can function as an ISP (internet service provider).
+MAN is designed for customers who need high-speed connectivity.
+MAN speeds range in terms of Mbps. It is difficult to design and maintain a Metropolitan Area Network.
+The fault tolerance of MAN is less than LAN and also there is more congestion in the network.
+The data transfer rate and propagation delay of the MAN is moderate. ~\cite{yudianto2014jaringan}
+
 
 \section{Related Work}
-Wi-Fi atau lebih dikenal dengan
-WLAN (Wireless Local Area Network) merupakan
-teknologi jaringan wireless yang ditujukan untuk
-menghubungkan beberapa terminal berbasis IP (PC,
-notebook atau PDA) dalam suatu area LAN (Local
-Area Network). WLAN merupakan salah satu apli-
-kasi pengembangan wireless untuk komunikasi data.
-Sesuai dengan namanya yaitu wireless, berarti tanpa
-kabel, WLAN adalah jaringan lokal yang tidak me-
-nggunakan kabel . Jaringan WLAN
-sangat efektif digunakan didalam sebuah kawasan
-atau gedung. Dengan performa dan keamanan yang
-dapat diandalkan, pengembangan jaringan WLAN
-menjadi tren baru pengembangan jaringan meng-
-gantikan jaringan wired atau jaringan penuh kabel.
-Solusi dari pengembangan WLAN dapat mencakup
-sebuah kawasan rumah, kantor kecil, perusahaan
-hingga ke area-area publik~. 
+Wi-Fi or better known as
+WLAN (Wireless Local Area Network) is
+a wireless network technology that is intended to
+connect several IP-based terminals (PCs,
+notebooks or PDAs) in a LAN (Local
+Area Network) area. WLAN is aapplication
+wireless developmentfor data communication.
+As the name implies, wireless, meaning
+wireless, WLAN is a local network that does not
+use cables. WLAN network is
+very effective to use in an area
+or building. Withperformance and security
+reliable, the development of WLAN networks
+is a new trend in network development to
+replace wired networks or full wired networks.
+Solutions from WLAN development can cover
+a home area, small office, company
+to public areas~
 
-Menurut Andi Maslan dan Tonny Wangdra, Wi-Fi adalah
-satu standar wireless networking, hanya dengan komponen yang sesuai dapat
-terkoneksi ke jaringan (2012 :105). Menurutnya, teknologi Wi-Fi memiliki standar
-protocol yang ditetapkan oleh sebuah institut internasional yang bernama Institute of
-Electrical and Electronic Engineers (IEEE), yang secara umum sebagai berikut : 
+
+According to Andi Maslan and Tonny Wangdra, Wi-Fi is
+a wireless networking standard, only with the appropriate components can be
+connected to the network (2012: 105). According to him, Wi-Fi technology hasstandards
+protocolset by an international institute called the Institute of
+Electrical and Electronic Engineers (IEEE), which are generally as follows:
+
 
 \begin{itemize}
-    \item Standar IEEE 802.11a yaitu Wi-Fi dengan frekuensi 5 GHz yang memiliki
-    kecepatan 54 Mbps dan jangkauan jaringan 300m. 
-    \item Standar IEEE 802.11b yaitu Wi-Fi dengan frekuensi 2.4 GHz yang memiliki
-    kecepatan 11 Mbps dan jangkauan jaringan 100m. 
-    \item Standar IEEE 802.11g yaitu Wi-Fi dengan frekuensi 2.4 GHz yang memiliki
-    kecepatan 54 Mbps dan jangkauan jaringan 300m.
+    \item The IEEE 802.11a standard is Wi-Fi with a frequency of 5 GHz which has a
+    speed of 54 Mbps and a network range of 300m. 
+    \item The IEEE 802.11b standard is Wi-Fi with a frequency of 2.4 GHz which has a
+    speed of 11 Mbps and a network range of 100m. 
+  \item The IEEE 802.11g standard is Wi-Fi with a frequency of 2.4 GHz which has a
+    speed of 54 Mbps and a network range of 300m.
+
 \end{itemize}
 
 \begin{table}[htbp]
@@ -130,15 +128,15 @@ Electrical and Electronic Engineers (IEEE), yang secara umum sebagai berikut :
     \end{table}
 
 
-\subsection{Pengukuran RSSI (Receive Signal Strength indicator)}
-RSSI adalah sebuah teknologi yang sering digunakan untuk mengukur suatu indikator kekuatan transimisi
-data / sinyal yang diterima oleh receiver suatu perangkat wireless . biasa nya RSSI digunakan untuk memetakn
-nilai berdasarkan jarak,ketinggan,penghalang, dan lain-lain . 
+\subsection{Measurement RSSI (Receive Signal Strength indicator)}
+RSSI is a technology that is often used to measure an indicator of transmission strength
+data / signal received by the receiver of a wireless device. RSSI is usually used to map
+value based on distance, height, barrier, etc.
 
-Daya yang diterima oleh antenna (Pr) ditempatkan pada jarak d
-dari antenna pemancar dengan jumlah yang diketahui
-ditansmisikan daya (Pt) dan diberikan oleh
-persamaan Friis pada persamaan :
+The power received by the antenna (Pr) is placed at a distance d
+of a known number of transmitting antennas
+transmitted power (Pt) and is given by
+Friis equation in equation:
 
 \begin{equation}
     Pr = P_t G_r G_t 
@@ -147,72 +145,72 @@ persamaan Friis pada persamaan :
     \right) ^2
 \end{equation}
 
-dimana Gt merupakan Gain dari antena pemancar, Gr
-adalah Gain dari antena penerima  dan lambda adalah
-panjang gelombang~. \cite{puspitasari2014analisis}
+where Gt is the Gain of the transmitting antenna, Gr
+is the Gain of the receiving antenna and the lambda is
+wavelength~. \cite{puspitasari2014analisis}
+the influence of temperature and wind strength greatly affect the quality of RSSI,
+for the room and in the room there will be a very significant difference, factors
+that affect signal transmission at a receiver are obstacles such as walls, height, quality of the transmitter, and others.
+performance on signals that use the 2.4 Ghz band at one time there will be noise if the device used is a fake NIC.
 
-disini pengaruh suhu dan kekuatan angin sangat berpengaruh terhadap kualitas RSSI ,
-untuk diruangan dan didalam ruangan akan terdapat perbedaan yang sangat signifikan , faktor-faktor
-yang mempengaruhi transmisi sinyal pada suatu receiver adalah hambatan seperti dinding,ketinggan , kualitas transmiter , dan lain-lain .
-kinerja pada sinyal yang menggunakan band 2,4 Ghz pada suatu waktu akan terjadi noise apabila yang digunakan pada device adalah NIC yang abal-abal. 
-
-\subsection{Pengaruh Berbagai Faktor pada RSSI dari Positioning Antena}
-Pengaruh faktor pada RSSI terhadap Positioning dari antena pada Usb wireless TL-WN722N \cite{LINK2018} sangat bengaruh terhadap penerimaaan data yang ada pada device / Laptop
-hal ini memungkinkan terjadi nya transmisi yang tidak stabil apabila menggunakan aplikasi InSSIDer dan digunakan SpeedTest untuk mengetest kecepatan transfer data .
-
+\subsection{Effect of Various Factors on RSSI of Antenna Positioning}
+The influence of factors on RSSI on the positioning of the antenna on the USB wireless TL-WN722N \cite{LINK2018} greatly affects the reception of data on the device / Laptop
+this allows unstable transmission to occur when using the InSSIDer application and using SpeedTest to test the data transfer speed.
 \section{Scenario}
-Pada sesi ini kami menggunakan skenario menggunakan peralatan seperti dibawah ini :
-\subsection{Alat dan Bahan}
+
+this section we are use tools scenario as follows :
+\subsection{Tools and materials}
 
 \begin{itemize}
-    \item Access Point : akses point yang digunakan pada sesi ini adalah akses point dengan SSID  "Alfatih" , dengan menggunakan vendor router Huawei HG8245 dengan transimisi 100\% 
-    \item Laptop : Laptop yang digunakan adalah merk HP dengan series 8440p dengan sistem operasi windows dual boot ubuntu , processor i5 generasi 1 ,dengan penyimpanan 1 TB ,dan RAM sebesar 6 GB 
-    \item Handphone : Redmi Note 8 dengan RAM 4 GB dan penyimpanan internal sebesar 64 GB 
-    \item USB Wireless : TP-LINK TL-WN722N dengan kecepatan maksimal transfer data sebesar 150 Mbps ~
-    \item Meteran : untuk mengukur jarak router ke receiver
+    \item Access Point: the access point used in this session is the access point with the SSID "Alfatih", using the Huawei HG8245 router vendor with 100\% transmission
+    \item Laptop: The laptop used is an HP brand with 8440p series with Windows dual boot Ubuntu operating system, 1st generation i5 processor, with 1 TB of storage, and 6 GB of RAM
+    \item Mobile : Redmi Note 8 with 4 GB RAM and 64 GB internal storage
+    \item USB Wireless : TP-LINK TL-WN722N with a maximum data transfer speed of 150 Mbps ~
+    \item Meter : to measure the distance from the router to the receiver
 \end{itemize}
 
-\subsection{Software yang digunakan}
+\subsection{Software Used}
 
 \begin{itemize}
-    \item Aplikasi InSSIDer :berfungsi sebagai scanner WiFi yang dapat dijangkau oleh adapter WiFi dengan hasil yang sangat terperinci dari setiap masing-masing jaringan WiFi. Kelebihan lain dari software inSSIDer ini ialah dapat bekerja pada merek adapter WiFi biasa jadi tidak membutuhkan adapter / perangkat WiFi yang khusus.
-    \item Speedtest by Ookla : sebuah situs yang menyediakan pengujian kecepatan koneksi internet yang disediakan oleh perusahaan asal Kalispel .
+    \item InSSIDer Application: functions as a WiFi scanner that can be reached by WiFi adapters with very detailed results for each WiFi network. Another advantage of this inSSIDer software is that it can work on regular WiFi adapter brands so it doesn't require a special WiFi adapter / device. ~\cite{Meta}
+    \item Speedtest by Ookla : a site that provides internet connection speed testing provided by a company from Kalispel .
 \end{itemize}
 
-\subsection{Teknik Pengumpulan Data}
+\subsection{Data collection technique}
 
 \begin{itemize}
-    \item Melakukan perencanaan penelitian yang membahas mengenai data yang akan diambil
-pada saat penelitian meliputi denah, tinggi
-access point, koordinat, jarak, RSSI 
+    \item Doing research planning that discusses the data to be taken
+at the time of the study include the floor plan, height
+access point, coordinates, distance, RSSI
 
-    \item Menentukan koordinat posisi Access Point
-dan posisi receiver di lingkungan indoor.
+    \item Specifies the coordinates of the Access Point position
+and the position of the receiver in the indoor environment.
 
-    \item Aplikasi inSSIDER yang telah dijalankan
-akan melaporkan data terhadap nilai RSSI
-yang diterima oleh receiver, dan
-pengumpulan data selesai
+    \item of the inSSIDER \ Application that has been run
+will report data against RSSI nilai values
+received by the receiver, and
+data collection is complete
 \end{itemize}
 
-Pengukuran yang dilakukan terhadap sinyal transmisi ini seperti dibawah ini :
+
+Measurements made on this transmission signal are as follows:
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{gambar-lokasi.png}
-    \caption{Denah Lokasi Pengukuran Jarak}
+    \caption{Location Measurements}
 \end{figure}
 
-pada gambar diatas diukur menggunakan meteran jarak nya adalah 8.5 Meter dengan posisi Router berada didalam rumah 
-kondisi ini memiliki hambatan karena terdapat beberapa dinding yang harus ditembus sinyal . sehingga yang didapatkan pada receiver TL-WN722N tidak stabil .
+in the picture above measured using a meter the distance is 8.5 meters with the router position in the house
+This condition has obstacles because there are several walls that the signal must penetrate. so that what is obtained on the TL-WN722N receiver is not stable.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{gambar-inssider.png}
-    \caption{Analisis InSSIDer}
+    \caption{Analize InSSIDer}
 \end{figure}
 
-didapatkan sinyal yang bernama "ALFATIH" sebesar -65dBm dalam posisi HIDDEN , jika kita liat HIDDEN ini berarti terdapat SSID yang di enable kan untuk broadcast atau dipancarkan .
+we get a signal called "ALFATIH" of -65dBm in the HIDDEN position, if we look at HIDDEN this means that there is an SSID that is enabled for broadcast or broadcast.
 
 \begin{figure}[h]
     \centering
@@ -220,78 +218,84 @@ didapatkan sinyal yang bernama "ALFATIH" sebesar -65dBm dalam posisi HIDDEN , ji
     \caption{SpeedTest}
 \end{figure}
 
-pada pengetesan kali ini , hambatan yang ada antara receiver dan router adalah tembok yang hanya di sekat . dapat kita lihat bahwa kecepatan yang di dapatkan dari ISP Seharus nya 1:2 dengan paket 25 Mbps .
+
+In this test, the obstacle that exists between the receiver and the router is a wall that is only in the bulkhead. we can see that the speed we get from the ISP should be 1:2 with a 25 Mbps package.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{router.png}
-    \caption{Halaman Admin Pada Router Huawei}
+    \caption{Admin Page From Router Huawei HG8245}
 \end{figure}
 
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{signal-strengh.png}
-    \caption{Halaman Admin Pada Router Huawei}
+    \caption{ Signal Strength View  }
 \end{figure}
 
-Kekuatan sinyal RSSI yang diterima oleh
-receiver tidak bergantung dengan  adanya jarak
-antara transmitter dan receiver, akan tetapi
-menunjukkan terdapat berbagai variasi yang besar terhadap fading
-dan shadowing pada sebuah lokasi. Hal ini
-terlihat pada tempat pengukuran yang kondisi
-lingkungannya memiliki banyak property seperti
-didalam ruangan terdapat sekat, tembok, meja dan 
-property lainnya, sehingga akan terjadi peredaman sinyal, pembelokan sinyal dan pemantulan
-sinyal yang mengakibatkan penurunan kuat
-sinyal yang dipancarkan oleh transmiter kepada
-receiver, walaupun jarak antara transmiter dan
-receiver cukup dekat, namun terhalang oleh
-adanya property disekitarnya, maka kekuatan
-sinyalnya akan menurun dan kemungkinan
-kekuatan sinyal nya akan sama dengan kekuatan
-sinyal pada jarak antara transmiter dan receiver
-yang cukup jauh, namun tidak memiliki
-penghalang disekitarnya. 
+RSSI signal strength received by
+receiver does not depend on distance
+between transmitter and receiver, however
+shows that there are large variations in fading
+and shadowing at a location. This matter
+seen at the measurement place that is in good condition
+The environment has many properties such as
+in the room there are partitions, walls, tables and
+other properties, so that signal attenuation, signal deflection and reflection will occur
+signal resulting in a strong drop
+the signal emitted by the transmitter to the
+receiver, even though the distance between the transmitter and
+receiver close enough, but blocked by
+there is a property around it, then strength
+the signal will decrease and possibly
+the signal strength will be equal to the strength
+signal at the distance between transmitter and receiver
+which is far enough away, but does not have
+barrier around it. 
 
-\section{Hasil dan Pembahasan}
+\section{Results and Discussion}
 
-*under way
-
-Dari hasi analisis jaringan wireless yang dilakukan pada lingkungan kampus
-institut teknologi batam menggunakan alat usb wireless penerima sinyal TP-LINK TL-WN722N yaitu pada saat kami berjalan menuju lantai 2 di area kampus iteba , jaringan akan berpindah
-ke akses point terdekat dengan SSID yang sama , karena penggunaaan repeater yang ada dikampus yang menyebabkan apabila terjadi permasalahan
-pada pusat jaringan atau Router Utama maka akan terjadi lost koneksi pada setiap semua repeater yang ada .
-disini kami juga mencoba kecepatan internet pada SSID Iteba Student menggunakan aplikasi SpeedTest By Ookla~\cite{Ookla}.
+From the results of the wireless network analysis carried out in a residential environment between houses using a wireless usb signal receiver TP-LINK TL-WN722N, that is, when we walk to the 2nd floor in the Iteba campus area, the network will move
+to the nearest access point with a double SSID thereby reducing transmission on a router, this is because the use of bands on the router is more than 1 SSID so
+the resulting coverage is low and makes the accessed speed decrease when used in the SpeedTest By Ookla application~\cite{Ookla}.
 
 \begin{equation}
-    Rerata RSSI = \frac{Total Jumlah Nilai RSSI}{Jumlah Koordinat receiver}
+   Average RSSI = \frac{Total values RSSI}{Total Coordinates receiver}
     \label{rerata_rssi}
 \end{equation}
 
 \begin{table}[htbp]
-    \caption{Table Analisis Pengukuran RSSI}
+    \caption{Table Analize Measurements RSSI}
     \begin{center}
     \begin{tabular}{|c|c|c|c|}
         \hline
-    \textbf{Nomor} & \textbf{\textit{Tinggi}}& \textbf{\textit{Receiver}}& \textbf{\textit{Rata-rata sinyal penerima}} \\
+    \textbf{No} & \textbf{\textit{Tall}}& \textbf{\textit{Receiver}}& \textbf{\textit{Receiver signal average}} \\
     \hline
-    1 & 150cm& 25 Receiver & -53.87 dbm  \\
+    1 & 178cm& 8 Receiver & -53.87 dbm  \\
     \hline
-    2 & 200cm& 15 Receiver & -51.98 dbm  \\
+    2 & 180cm& 7 Receiver & -51.98 dbm  \\
     \hline
-    \multicolumn{4}{l}{$^{\mathrm{a}}$Hasil dari dana InSSIDer}
+    \multicolumn{4}{l}{$^{\mathrm{a}}$Proceeds from InSSIDer funds}
     \end{tabular}
     \label{tab2}
     \end{center}
     \end{table}
 
-\section{Kesimpulan}
-Dapat disimpulkan bahwa saat pengetesan menggunakan aplikasi InSSIDer kekuatan sinyal juga mempengaruhi transmisi data yang dimana ini menggunakan internet,
-sehingga ada nya perbedaan pada saat ada nya penghalang sewaktu pengetesan dan tidak adanya penghalang saat pengetesan , beberapa keunggulan dan kekurangan dari wireless network 
-sangat mungkin ada , karena pada dasarnya manusia menciptakan sesuatu hal yang belum sempurna namun dari pernyataan tersebut bahwa manusia membuat perangkat nirkabel untuk memudahkan pengaksesan 
-tanpa menggunakan perantara kabel saat terkoneksi di device , perangkat hardware pada device juga mempengaruhi kekuatan sinyal , karena apabila hardware penangkap sinyal yang ada pada suatu komputer sudah usang atau sudah rusak , maka sinyal transmisi yang dihasilkan akan lebih jauh menurun.
+\section{Conclusion}
+
+A network will be inhibited if there is a wall and a wall that causes results
+unstable and makes data transmission to the receiver device less and as a result buffering occurs, therefore there must be a repeater at every point
+to ensure maximum data reception strength and no distortion of a wireless signal.
+
+The use of the 2.4 GHz and 5 GHz bands actually doesn't affect it, but when we tested it when using the SSID Hotspot using the 5 Ghz band it wasn't detected on the laptop.
+old or outdated, but on laptops that already support the 5 Ghz feature, you will be able to see the SSID that was created. ~\cite{weaver2013guide}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{ping.png}
+    \caption{Measurements With Commad Promp}
+\end{figure}
 
 \bibliographystyle{IEEEtran}
 \bibliography{referensi.bib}

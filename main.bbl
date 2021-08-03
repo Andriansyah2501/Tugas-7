@@ -21,6 +21,10 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{yudianto2014jaringan}
+M.~J.~N. Yudianto, ``Jarkom topology,'' \emph{Ilmukomputer. Com}, pp. 1--10,
+  2014.
+
 \bibitem{puspitasari2014analisis}
 N.~F. Puspitasari, ``Analisis rssi (receive signal strength indicator) terhadap
   ketinggian perangkat wi-fi di lingkungan indoor,'' \emph{Data Manajemen Dan
@@ -32,9 +36,20 @@ T.~LINK, ``{USB WIRELESS TL-WN722N},'' 2018. [Online]. Available:
   \url{https://www.tp-link.com/id/home-networking/high-power-adapter/tl-wn722n/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Meta}
+\BIBentryALTinterwordspacing
+G.~Meta, ``{InSSIDer}.'' [Online]. Available:
+  \url{https://www.metageek.com/products/inssider/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Ookla}
 \BIBentryALTinterwordspacing
 Ookla, ``{Speedtest}.'' [Online]. Available: \url{https://www.speedtest.net/}
 \BIBentrySTDinterwordspacing
+
+\bibitem{weaver2013guide}
+R.~Weaver, D.~Weaver, and D.~Farwood, \emph{Guide to network defense and
+  countermeasures}.\hskip 1em plus 0.5em minus 0.4em\relax Cengage Learning,
+  2013.
 
 \end{thebibliography}

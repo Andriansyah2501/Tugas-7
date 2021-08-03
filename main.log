@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  31 JUL 2021 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  3 AUG 2021 21:48
 entering extended mode
 **"c:/Users/ian/Documents/GitHub/tugas 7/Tugas-7/main.tex"
 (c:/Users/ian/Documents/GitHub/tugas 7/Tugas-7/main.tex
@@ -184,63 +184,72 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-Underfull \hbox (badness 1571) in paragraph at lines 185--188
-\OT1/ptm/m/n/10 ge-nai data yang akan di-am-bil pada saat peneli-tian
- []
-
 <./gambar//gambar-lokasi.png, id=12, 1199.23032pt x 560.8453pt>
 File: ./gambar//gambar-lokasi.png Graphic file (type png)
 <use ./gambar//gambar-lokasi.png>
-Package pdftex.def Info: ./gambar//gambar-lokasi.png  used on input line 202.
+Package pdftex.def Info: ./gambar//gambar-lokasi.png  used on input line 200.
 (pdftex.def)             Requested size: 258.0pt x 120.6564pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 202--203
+Overfull \hbox (6.0pt too wide) in paragraph at lines 200--201
  [][] 
  []
 
-[2 <./gambar//gambar-lokasi.png>]
-<./gambar//gambar-inssider.png, id=24, 1199.23032pt x 622.57594pt>
+<./gambar//gambar-inssider.png, id=14, 1199.23032pt x 622.57594pt>
 File: ./gambar//gambar-inssider.png Graphic file (type png)
 <use ./gambar//gambar-inssider.png>
-Package pdftex.def Info: ./gambar//gambar-inssider.png  used on input line 211.
+Package pdftex.def Info: ./gambar//gambar-inssider.png  used on input line 209.
 (pdftex.def)             Requested size: 258.0pt x 133.9367pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 211--212
+Overfull \hbox (6.0pt too wide) in paragraph at lines 209--210
  [][] 
  []
 
-<./gambar//speedtest.png, id=25, 298.11375pt x 425.33907pt>
+[2 <./gambar//gambar-lokasi.png> <./gambar//gambar-inssider.png>]
+<./gambar//speedtest.png, id=26, 298.11375pt x 425.33907pt>
 File: ./gambar//speedtest.png Graphic file (type png)
 <use ./gambar//speedtest.png>
-Package pdftex.def Info: ./gambar//speedtest.png  used on input line 219.
+Package pdftex.def Info: ./gambar//speedtest.png  used on input line 217.
 (pdftex.def)             Requested size: 206.39685pt x 294.48373pt.
-<./gambar//router.png, id=26, 721.94719pt x 525.46312pt>
+<./gambar//router.png, id=27, 721.94719pt x 525.46312pt>
 File: ./gambar//router.png Graphic file (type png)
 <use ./gambar//router.png>
-Package pdftex.def Info: ./gambar//router.png  used on input line 227.
+Package pdftex.def Info: ./gambar//router.png  used on input line 226.
 (pdftex.def)             Requested size: 258.0pt x 187.77948pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 227--228
+Overfull \hbox (6.0pt too wide) in paragraph at lines 226--227
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./gambar//signal-strengh.png, id=27, 1203.7472pt x 590.95781pt>
+<./gambar//signal-strengh.png, id=28, 1203.7472pt x 590.95781pt>
 File: ./gambar//signal-strengh.png Graphic file (type png)
 <use ./gambar//signal-strengh.png>
-Package pdftex.def Info: ./gambar//signal-strengh.png  used on input line 234.
+Package pdftex.def Info: ./gambar//signal-strengh.png  used on input line 233.
 (pdftex.def)             Requested size: 258.0pt x 126.6567pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 234--235
+Overfull \hbox (6.0pt too wide) in paragraph at lines 233--234
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./gambar//gambar-inssider.png> <./gambar//speedtest.png> <./gambar//router.png> <./gambar//signal-strengh.png>] (main.bbl)
+[3 <./gambar//speedtest.png> <./gambar//router.png> <./gambar//signal-strengh.png>]
+<./gambar//ping.png, id=35, 730.98094pt x 341.02406pt>
+File: ./gambar//ping.png Graphic file (type png)
+<use ./gambar//ping.png>
+Package pdftex.def Info: ./gambar//ping.png  used on input line 296.
+(pdftex.def)             Requested size: 258.0pt x 120.3645pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 296--297
+ [][] 
+ []
+
+(main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
+[]\OT1/ptm/m/n/8 G. Meta, ``In-SSIDer.'' [On-line]. Avail-able:
+ []
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -254,19 +263,19 @@ Before submitting the final camera ready copy, remember to:
 
 [4
 
-] (main.aux) ) 
+ <./gambar//ping.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 2139 strings out of 478864
- 37398 string characters out of 2858523
- 352235 words of memory out of 3000000
- 20072 multiletter control sequences out of 15000+600000
+ 2150 strings out of 478864
+ 37610 string characters out of 2858523
+ 350270 words of memory out of 3000000
+ 20082 multiletter control sequences out of 15000+600000
  442242 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,66p,410b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,12n,66p,391b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 2622112 bytes).
+Output written on main.pdf (4 pages, 2639232 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
